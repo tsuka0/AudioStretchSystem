@@ -594,13 +594,6 @@ def main():
             )
         )
 
-        subprocess.Popen(
-            [
-                "explorer",
-                output_folder
-            ]
-        )
-
     finally:
         root.destroy()
 
